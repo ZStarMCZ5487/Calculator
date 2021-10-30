@@ -84,7 +84,7 @@ func CalculatorUI() ui.Control {
 	simbol.Append("/")
 	simbol.OnSelected(func(combobox *ui.Combobox) {
 	})
-	CalForm.Append("simbol:", simbol, false)
+	CalForm.Append("simbol:", simbol, false) //HAHA , dont ask why simbol...
 
 	entryNum2 := ui.NewEntry()
 	entryNum2.OnChanged(func(entry *ui.Entry) {
