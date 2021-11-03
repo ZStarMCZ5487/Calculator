@@ -27,7 +27,7 @@ func stringToInt(str string) int {
 }
 
 func menu() {
-	MainMenu = ui.NewWindow("Test UI", 300, 500, true)
+	MainMenu = ui.NewWindow("Calculator UI", 300, 500, true)
 	MainMenu.OnClosing(func (*ui.Window) bool {
 		ui.Quit()
 		return true
